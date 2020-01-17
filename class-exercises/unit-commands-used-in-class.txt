@@ -1,0 +1,25 @@
+   72  cd dir 2
+   73  cd dir1/dir2
+   74  ls
+   75  rm *.*
+   76  ls
+   77  cd ..
+   78  rmdir dir2/
+   79  ls
+   80  mkdir dir2
+   81  ls
+   82  cd dir2/
+   83  touch f1.txt f2.txt f3.txt f4.txt
+   84  ls
+   85  rm -r dir2
+   86  cd ..
+   87  rm -r dir2
+   88  ls
+   89  rm -r dir1
+   90  cd ..
+   91  rm -r dir1
+   92  history
+   93  cd ..
+   94  cd eeb-c177-homework/class-exercises/
+   95  history n > unix-commands-used-in class.txt
+   96  history 25 > unit-commands-used-in-class.txt

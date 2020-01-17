@@ -1,0 +1,50 @@
+Working With Files and Directories
+
+Creating Files a Different Way
+1. The ‘touch’ command created a new text file. The file shows up after typing the 'ls' command while on the directory.
+2. Since the file is blank, it is 0 bytes.
+3. The ‘touch’ command allows you to create a blank text file for programs that require
+such files to populate with its output.
+
+Moving Files to a new folder
+mv sucrose.dat maltose.dat ../raw
+
+Renaming Files
+I actually had to do this! I renamed call_exercises to class_exercises during lecture on Tues.
+1. No. The command ‘cp’ would only allow you to copy the file, not rename the existing file.
+2. Yes.
+3. No. Although ‘mv’ is the correct command, this line does not provide a new name.
+4. No. ‘cp’ will allow you to copy the file, not rename the existing file. Also, there isn’t a new name listed.
+
+Moving and Copying
+1. No. The file is located at /Users/jamie
+2. Yes.
+3. No. The file is located at /Users/jamie/data/recombine
+4. No. the file is located at /Users/jamie
+
+Using rm Safely
+The -i option will ask you to confirm whether or not you want to delete a file (Y = yes delete; N = no do not delete). This precautionary option is important so that you don’t accidentally delete something forever.
+
+Copy with Multiple Filenames
+If there are multiple file names followed by a directory, then the ‘cp’ command will copy the files into the directory. If there is no directory noted after the file, there will be an error.
+
+List filenames matching a pattern
+1. The wildcard between the ‘t’ and the ‘a’ allows it to recognize 0 or more characters in
+this space. We want to narrow the search further.
+2. I originally took this to mean that the ‘t’ is considered optional, but it appears as though the issue is that it does not account for 2 characters in between ‘t’ and ‘ne’, so it won’t consider the ‘thane’ ending.
+3. This works.
+4. This only shows files starting with ‘ethane.’
+
+More on wildcards
+cp *calibration.txt backup/calibration
+cp 2015-11-* send_to_bob/all_november_files/
+cp *-23-dataset* send_to_bob/all_datasets_created_on_a_23rd/
+
+Organizing Directories and Files
+mv *.dat analyzed
+
+Reproduce a folder structure
+1. I am not as familiar with this form of reproducing folder structure, but this method is effective.
+2. This is effective. This is the way I usually reproduce a folder structure.
+3. This will not work because there is no buildup of folders. I.e. the intermediate level folders must be created first.
+4. Since the command ‘cd data’ was not typed, the commands created ‘raw’ and ‘processed’ at the level of ‘data’
