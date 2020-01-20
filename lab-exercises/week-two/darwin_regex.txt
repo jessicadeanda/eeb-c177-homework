@@ -1,0 +1,14 @@
+2.2 Searching Through Text
+
+1.  (s\w+)
+   The answer above begins with a space.
+2. (\S+)[\.\?]
+3. \b[^.?]+
+4. \b[^.?]+struggle for existence.*?[.?]
+
+
+EC: (^\S+|[?.] (\S+))
+The use of "()" and "|" corresponds to "or"
+"^\S+" corresponds to the very first word of the text. The "^" corresponds to the start of the line, "\S" indicates that there is a non-white space character, and the "+" indicates that there is a string of characters. Alternatively, I could write "^\w+", which would denote an alphanumeric character. 
+"[?.] (\S+)" captures the first word after the specified punctuation. "[?.] " instructs it to search for those punctuation marks followed by a space. The "\S+" corresponds to the string of non-white space characters. Although the punctuation marks and spaces are highlighted, only the first word of the sentence is captured because the "\S+" is in parentheses.
+
