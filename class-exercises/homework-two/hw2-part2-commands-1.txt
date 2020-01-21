@@ -1,0 +1,15 @@
+Part 2 Commands:
+
+1. Entered the /Developers/repos/CSB/unix/data/ folder using the "cd" command
+2. Used the "head" command to get the first 25 lines of the text file: head -n 25 Pacifici2013_data.csv
+3. Entered the class-assignments/homework-two/ folder
+4. Created a new text file using the "touch" command: touch Pacifici-25lines.txt
+5. Entered the text file using the "nano" command: nano Pacifici-25lines.txt
+6. Copied and pasted the 25 lines into the text file and saved it using "Cntrl O" "Enter" and "Cntrl X"
+7. Used the "wc" command to getthe word count for the 25-line file: wc Pacifici-25lines.txt
+8. Created a text file using the "touch" command: touch Pacifici-25wordcount.txt
+9. Entered the text file using the "nano" command: nano Pacifici-25wordcount.txt
+10. Copied and pasted the word count and saved it using "Cntrl O" "Enter" and "Cntrl X"
+11. Created a new text file using the "touch" command: touch hw2-part2-commands-1.txt
+12. Updated this file and saved using "Cntrl O" "Enter" and "Cntrl X"
+13. Pushed to GitHub using "git add -A" "git commit -m "added text files"" "git push origin master"
