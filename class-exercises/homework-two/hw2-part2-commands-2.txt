@@ -1,0 +1,2 @@
+head -n 25 Pacifici2013_data.csv | wc > Pacificiwordcount2.txt
+mv Pacifici2013_data.csv /home/eebc177student/Developer/repos/eeb-c177-homework/class-exercises/homework-two/
