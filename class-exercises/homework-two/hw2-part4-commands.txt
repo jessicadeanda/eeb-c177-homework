@@ -1,0 +1,11 @@
+  357  sort fish_species.txt
+  358  touch fishes-sort.txt
+  359  nano fishes-sort.txt 
+  360  sort -r fish_species.txt 
+  361  touch fishes-rev-sort.txt
+  362  nano fishes-rev-sort.txt 
+  363  uniq fish_species.txt 
+  364  touch fishes-unique.txt
+  365  nano fishes-unique.txt 
+  366  touch hw2-part4-commands.txt
+
