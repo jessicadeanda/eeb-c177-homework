@@ -1,0 +1,17 @@
+Commands used in Part 1:
+
+1.  Got into the sandbox directory using the "cd" command: cd Developer/repos/CSB/unix/sandbox/
+2.  Downloaded the text file using the "wget" command: wget -c http://dev.shawntylerschwartz.com/docs/paragraphs.txt
+3.  Returned to the home directory using the "cd" command
+4.  Entered the "class-exercises" directory using the "cd" command: cd Developer/repos/eeb-c177-homework/class-exercises
+5.  Created a new directory using the "mkdir" command: mkdir homework-two
+6.  Retured to the home directory using the "cd" command
+7.  Entered the sandbox directory using the "cd" command: cd Developer/repos/CSB/unix/sandbox
+8.  Moved the paragraphs.txt file using the "mv" command: mv paragraphs.txt /home/eebc177student/Developer/repos/eeb-c177-homework/class-exercises/homework-two/
+9.  Pushed my progress to GitHub using the following commands: "git add -A" "git commit -m "added paragraphs.txt"" and "git push origin master"
+10. Renamed paragraphs.txt using the "mv" command: mv paragraphs.txt easy-question.txt
+11. Repeated step 9 to push progress to GitHub
+12. Created a new text file using the "touch" command: touch hw2-part1-commands.txt
+13. Entered the tet file to outline the commands used during part 1 of the assignment using the "nano" command: nano hw2-part1-commands.txt
+14. Saved my process and exited: "Cntrl O" "Enter" "Cntrl X"
+14. Repeated step 9 to push to GitHub.
