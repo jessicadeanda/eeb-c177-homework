@@ -1,0 +1,40 @@
+  303  ls -l | wc > pipe-data-lines.txt
+  304  nano pipe-data-lines.txt 
+  305  ls
+  306  cd miRNA/
+  307  ls
+  308  cat ggo_miR.fasta hsa_miR.fasta | wc > fasta-cat.txt
+  309  nano fasta-cat.txt 
+  310  mv fasta-cat.txt /home/eebc177student/Developer/repos/eeb-c177-homework/class-exercises/homework-two/
+  311  cd
+  312  cd Developer/repos/eeb-c177-homework/class-exercises/homework-two/
+  313  ls
+  314  cd ..
+  315  cd CSB/unix/data/
+  316  ls
+  317  mv pipe-data-lines.txt /home/eebc177student/Developer/repos/eeb-c177-homework/class-exercises/homework-two/
+  318  cd 
+  319  cd Developer/repos/eeb-c177-homework/class-exercises/homework-two/
+  320  git add -A
+  321  git commit -m "added text files"
+  322  git push origin master
+  323  cd
+  324  cd Developer/repos/CSB/unix/
+  325  ls
+  326  cd sandbox/
+  327  ls
+  328  cd ..
+  329  cd data
+  330  ls
+  331  head -n 10 Pacifici2013_data.csv 
+  332  touch Pacifici-delim.txt
+  333  nano Pacifici-delim.txt 
+  334  git add -A
+  335  git commit -m "added text file"
+  336  git push origin master
+  337  head -n 10 Pacifici2013_data.csv | cut -d ';' -f 1
+  338  tail -n 5 Pacifici2013_data.csv 
+  339  head -n 11 Pacifici2013_data.csv | cut -d ';' -f 1- | tail -n +2
+  340  touch Pacifici-ten.txt
+  341  nano Pacifici-ten.txt 
+  342  mv Pacifici-ten.txt /home/eebc177student/Developer/repos/eeb-c177-homework/class-exercises/homework-two/
