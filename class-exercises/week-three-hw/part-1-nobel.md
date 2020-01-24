@@ -1,7 +1,8 @@
 Part 1
 
 1. Number of winners for each Nobel prize: 
-   The following commands were completed in eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-exercises/week-three-hw$
+   
+The following commands were completed in eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class-exercises/week-three-hw$
 
 Chemistry: cut -d "," -f 3 nobel.csv | grep -w chemistry | wc -l
 Answer: 181
