@@ -1,0 +1,25 @@
+1. extract column 4 from the file (because we only need the names) and save output as a list
+2. replace the '&' characters with ','  
+3. remove the special characters in the list
+4. remove the numbers
+5. remove a capital letter followed by a period 
+6. sort the file alphabetically
+7. 
+
+NEW PSEUDO CODE:
+
+#for each element in the list
+#   step through each char and find the first capital one
+#   when you find the first capital one, step through until you find a space or a comma
+#   take what is between the capital and the space/comma
+#   put what you took out (the name) in a dictionary
+#      if the name is already in dictionary, add one to it's count
+#      else if the name is not in dictionary (new name) then add it to dictionary and give it count 1 as the value
+#   continue through the end of the list entry
+#   repeat for all elements the author list
+
+#now that you have the dictionary
+
+#for each element in the dictionary
+#look at name 
+
